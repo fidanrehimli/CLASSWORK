@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    display: flex;
+    gap: 50px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section1{
+    width: 600px;
+    height: 1200px;
+    border: 2px solid red;
+}
+.prdbox{
+    margin: 5px;
+}
+.section1{
+    h1{
+        width: 500px;
+        border: 1px solid red;
+        font-size: 20px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        display: block;
+    }
+    btn{
+        width: 100px;
+        height: 20px;
+        background-color: brown;
+        border-radius: 10px;
+    }
+    btn2{
+        width: 100px;
+        height: 20px;
+        background-color: brown;
+        border-radius: 5px;
+    }
+}
+.section2{
+    width: 600px;
+    height: 1200px;
+    border: 2px solid red;
+}
+.section3{
+    width: 600px;
+    height: 1200px;
+    border: 2px solid red;
+}
+
+
