@@ -51,7 +51,13 @@ fetch("https://northwind.vercel.app/api/products")
         detailbtn.innerText = "Detail"
 
 
-        deletebtn.addEventListener("click",(e)=>{
+
+
+        deletebtn.addEventListener("click",function(e){
+            fetch("https://northwind.vercel.app/api/products" +"/"+elem.id,{
+                method: "delete"
+            })
+            .then(res=>res.json())
             e.target.parentElement.parentElement.remove()
         })
 
